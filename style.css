@@ -1,0 +1,81 @@
+body{
+   background-color: antiquewhite;
+   color:black;
+}
+.header{
+   position: static;
+   background-color:gray;
+   color:black;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+#Cr-btn{
+   padding: 10px 30px;
+   background-color: aquamarine;
+   border: none;
+   color: black;
+   border-radius: 10px;
+}
+#text-container {
+   position:fixed;
+    background-color:white;
+    color:black;
+    display:none;
+    border: 1px solid black;
+    padding: 20px;
+    position: fixed;
+    width: 1000px;
+    height: 500px;
+    left:130px;
+    top:200px; 
+  }
+ #heading{
+   background-color: White;
+   color:black;
+    height:40px; 
+    width:900px;
+ }
+ #content{
+   background-color: white;
+   color:black;
+    height:300px;
+    width: 900px;
+ }
+ #blog-posts {
+	margin: 3% 5%;
+    width: 90%;
+    border-radius: 10px;
+	display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: azure;
+    color: black;
+
+}
+ .blog-post {
+   border:1px solid black;
+   width: 100%;
+   background-color:azure;
+   color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.blog-post h3 {
+  margin: 5px 10px;
+  margin-bottom: 5px;
+}
+
+.blog-post p {
+  margin-top: 5px 10px;
+   font-size: 24px;
+   padding-left:10px;
+}
+.dateTime{
+   text-align: end;
+}
+.button{
+   width: 50px;
+   padding:10px 30px;
+}
